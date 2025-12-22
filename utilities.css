@@ -1,0 +1,68 @@
+/* utilities*/
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem; /* font-size of root is 10px so, 10 x 80 = 800px */
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container > * {
+  /* any child of container */
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Buttons */
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #56a5eb;
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+/* When the user hovers over this disabled button, this CSS rule applies. */
+.btn[disabled]:hover{
+    cursor:not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
