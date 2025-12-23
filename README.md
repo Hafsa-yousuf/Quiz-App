@@ -1,3 +1,5 @@
+![Quiz App Preview](quiz-app-preview.png)
+
 # Quiz App 📝
 A **responsive and interactive Quiz App** built with **HTML, CSS, and JavaScript**, developed as part of a Udemy course by James Q Quick. Users can answer multiple-choice questions, track their score, and save their high scores.
 
